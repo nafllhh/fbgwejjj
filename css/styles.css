@@ -7,7 +7,7 @@ body{
     font-size: 20px;
 }
 .container {
-    margin: 5px;
+    margin: 6px;
 }
 a{
     text-decoration: none;
@@ -31,6 +31,7 @@ a{
 
 }
 .top-logo > span  {
+    
    
     padding: 10px ;
     font-size: 25px;
@@ -55,6 +56,7 @@ a{
     overflow: hidden;
     background-color: #242527;
     position: fixed;
+
     top: 0;
     width: 100%;
     
@@ -64,21 +66,29 @@ a{
     border-bottom: solid 1px #47484a;
     font-size: 24px;
     
+    
 
+}
+#margin-topp{
+    margin-top: 70px;
+    margin-left: 10px;
 }
 .top-nav > a {
     flex: 20%;
     padding-bottom: 8px;
     margin:10px 0px 0px 15px;
+    transition: 0.2s;
 }
 .top-nav > a:hover {
-    color:#2f88f9 ;
+    color:#e23e46 ;
 
 }
 .top-nav a.active {
+  
+    
 
     
-    color:#2f88f9 ;
+    color:#e23e46 ;
    
     
 
@@ -99,6 +109,9 @@ a{
     border-radius: 8px 8px 0px 0px ;
     margin-bottom: 70px;
     text-align: left;
+}
+.cover:hover {
+    background-color: #393a3c85;
 }
 .cover .float {
     font-weight: bold;
@@ -142,6 +155,7 @@ img.pp {
     float:right;
     
     margin-right: 18px;
+ 
 }
 .music > img {
     border-radius: 5px;
@@ -152,7 +166,8 @@ img.pp {
 }
 .hero > span {
     
-    font-size: 27px;
+    font-size: 30px;
+    font-weight: 600;
 }
 .button-flex {
     
@@ -170,12 +185,12 @@ img.pp {
     border-radius: 6px;
     padding: 8px;
     margin:6px;
-    background-color: #216fdb;
+    background-color: #db212a;
 }
 .button-flex > div:not(.side):hover{
     
     font-size: 19px;
-        background-color: #337de4;
+        background-color: #db4747;
 }
 .button-flex .side > div {
     transition: 0.1s;
@@ -201,11 +216,14 @@ hr {
 .link {
     color: #e3e5e9d6;
     display: flex;
-    font-size: 18px;
+    font-size: 19px;
+   
+    
     
     flex-direction: column;
 }
 .link > a {
+   
     
     padding: 5px;
 
@@ -233,12 +251,13 @@ border-radius: 30px;
     
 }
 a.edit{
-    font-size: 15px;
+    
+    font-size: 17px;
     margin: 8px 5px;
     border-radius: 7px;
     display: flex;
-    color: #82b6ff;
-    background-color: #216fdb40;
+    color: #ff8282;
+    background-color: #db212140;
     padding: 5px;
     
     font-weight: 500;
@@ -309,35 +328,45 @@ a.edit{
     display: flex;
     flex-direction: row;
     background-color: #242527;
+    
 }
 .story > div:not(.vert) {
     margin: 8px;
     margin-right: 10px;
     padding: 6px 13px;
     border-radius: 30px;
+    transition: 0.3s;
+    
     
 }
 .vert {
     display: flex;
     flex-direction: row;
+   
     
 
 }
 .vert > div {
-    margin: 8px;
-    margin-right: 5px;
+    margin: 10px;
+    
     padding: 10px 10px;
     border-radius: 20px;
     background-color: #333436;
     height: 150px;
-    flex: 20px;
+    flex: 20%;
     text-align: center;
     
 }
 .story > div.active:not(.vert) {
+    color:#fc7474;
+    background-color: #512727;
+    
+    
+
+}
+.story > div:hover {
     color:#74b3fc;
     background-color: #273951;
-    
 }
 hr.sep {
     margin: 0%;
@@ -368,6 +397,7 @@ span.info {
     font-size: 17px;
 }
 .contentt {
+    
     line-height: 30px;
     font-size: 20px;
     margin-top: 16px;
