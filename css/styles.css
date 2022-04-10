@@ -1,0 +1,365 @@
+html,
+body{
+    font-family: Roboto;
+    color: #e3e5e9;
+    background-color: #242527;
+    margin: 0%;
+}
+.container {
+    margin: 2px;
+}
+a{
+    text-decoration: none;
+    color: #e3e5e9;
+}
+.top-logo {
+    padding-top: 5px;
+   margin-bottom: 40px;
+   z-index: 1;
+   overflow: hidden;
+   background-color: #242527;
+   position: fixed;
+   top: 0;
+   width: 100%;    
+   height:100px;
+
+}
+#top-id {
+    background-color: #242527;
+    margin-top: 45px;
+
+}
+.top-logo > span  {
+   
+    padding: 10px ;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.float-flex {
+    margin: 6px;
+    float: right;
+}
+.float-flex > a {
+   
+    
+    padding: 6px;
+    background-color: #393a3c;
+    border-radius: 50px;
+    
+
+}
+.top-nav{
+    z-index: 1;
+    overflow: hidden;
+    background-color: #242527;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    margin: 0px;
+    display: flex;
+    padding: 5px;
+    border-bottom: solid 1px #47484a;
+    font-size: 24px;
+    
+
+}
+.top-nav > a {
+    flex: 20%;
+    padding-bottom: 8px;
+    margin:10px 0px 0px 15px;
+}
+.top-nav > a:hover {
+    color:#2f88f9 ;
+
+}
+.top-nav a.active {
+
+    
+    color:#2f88f9 ;
+   
+    
+
+
+}
+.user-interface {
+    
+    text-align: center;
+    
+}
+
+.cover {
+    position: relative;
+    margin: 70px 11px;
+    padding-top: 170px ;
+    background-color: #393a3c;
+   /* background-image: url(/img/cover.png);*/
+    border-radius: 8px 8px 0px 0px ;
+    margin-bottom: 70px;
+    text-align: left;
+}
+.cover .float {
+    font-weight: bold;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+img.pp {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 90px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  
+
+
+    width: 150px;
+    border-radius: 100px;
+    border: solid 5px #242527;
+}
+.music{
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+.music > span{
+    font-size: 13px;
+    opacity: 70%;
+
+}
+.music > span.dot {
+    font-size: 15px;
+    float:right;
+    
+    margin-right: 18px;
+}
+.music > img {
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 40px;
+    float: left;
+
+}
+.hero > span {
+    
+    font-size: 27px;
+}
+.button-flex {
+    font-weight:500;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-flex .side {
+    display: flex;
+    flex-direction: row;
+}
+.button-flex > div:not(.side) {
+    transition: 0.1s;
+    border-radius: 6px;
+    padding: 8px;
+    margin:6px;
+    background-color: #216fdb;
+}
+.button-flex > div:not(.side):hover{
+    
+    font-size: 19px;
+        background-color: #337de4;
+}
+.button-flex .side > div {
+    transition: 0.1s;
+    border-radius: 6px;
+    padding: 8px ;
+    flex: 90%;
+    margin:6px;
+    background-color: #393a3c;
+   
+}
+.button-flex .side > div:hover :not(div.mini) {
+    font-size: 20px;
+}
+.button-flex .side > div.mini {
+    flex:10%;
+}
+hr {
+    background-color: #47484a;
+    height: 1px;
+    border: none;
+ margin: 6px;
+}
+.link {
+    color: #e3e5e9d6;
+    display: flex;
+    
+    flex-direction: column;
+}
+.link > a {
+    font-size: 15px;
+    padding: 5px;;
+
+}
+.hobby {
+    color: #e3e5e9d6;
+   
+    
+    width:fit-content;
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+.hobby > a {
+    font-size: 14px;
+border-radius: 30px;
+    padding: 8px;
+    background-color: #393a3c5c;
+    margin: 4px;
+
+}
+.hobby > a:hover{
+    background-color: #393a3ca0;
+    
+}
+a.edit{
+    font-size: 15px;
+    margin: 8px 5px;
+    border-radius: 7px;
+    display: flex;
+    color: #82b6ff;
+    background-color: #216fdb40;
+    padding: 5px;
+    
+    font-weight: 500;
+
+}
+.flegs {
+    display: flex;
+    flex-direction: row;
+}
+.status {
+    margin-top: 105px;
+}
+.status > img {
+
+    width: 45px;
+    float: left;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.status div.boxx {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 7px;
+    border-radius: 50px;
+    padding: 15px;
+    border: solid 1px #47484a;
+    flex: 100%;
+    
+    
+
+}
+#green {
+    flex: 5%;
+    font-size: 23px ;
+    color: rgb(16, 171, 16);
+    margin:20px;
+}
+.misc {
+    margin-top: 5px;
+ display: flex;
+ flex-direction: row;
+ background-color: #3f4042;
+}
+.misc > div {
+    margin: 8px;
+    margin-right: 10px;
+    padding: 6px 13px;
+    border-radius: 30px;
+    background-color: #333436;
+}
+.story {
+    display: flex;
+    flex-direction: row;
+    background-color: #242527;
+}
+.story > div:not(.vert) {
+    margin: 8px;
+    margin-right: 10px;
+    padding: 6px 13px;
+    border-radius: 30px;
+    
+}
+.vert {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+
+}
+.vert > div {
+    margin: 8px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #333436;
+    height: 150px;
+    flex: 20px;
+    text-align: center;
+    
+}
+.story > div.active:not(.vert) {
+    color:#74b3fc;
+    background-color: #273951;
+    
+}
+hr.sep {
+    margin: 0%;
+    background-color: #18191b;
+    height: 10px;
+    border: none;
+}
+.post :not(img){
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.post > img {
+    float: left;
+    border-radius: 50px;
+    width: 55px;
+    margin: 5px;
+}
+span.uname {
+    padding-bottom: 1px;
+    
+    font-weight: 700;
+    font-size: 23px;
+}
+span.info {
+    color: #e3e5e9a4;
+    font-size: 17px;
+}
+.contentt {
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 9px;
+}
+.contentt > img {
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+
