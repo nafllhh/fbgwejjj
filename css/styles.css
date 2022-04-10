@@ -5,6 +5,8 @@ body{
     background-color: #242527;
     margin: 0%;
     font-size: 20px;
+    user-select: none;
+
 }
 .container {
     margin: 6px;
